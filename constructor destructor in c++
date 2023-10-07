@@ -1,0 +1,15 @@
+#include<iostream.h>
+#include<conio.h>
+class test {
+	int x;
+	public:
+	test()//constructor
+	{x=10;
+	cout<<"x="<<x<<endl;}
+	~test()// destructor
+	{cout<<"data is destroyed";}};
+		void main()
+		{ 
+		test  ob;
+	getch();}
+	

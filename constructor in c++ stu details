@@ -1,0 +1,31 @@
+#include<iostream.h>
+#include<conio.h>
+class student{
+	char name[20];
+	char fname[20];
+	int rollno;
+	float fees;
+	public:
+	student()// constructor
+	{
+		cout<<"enter your name:";
+		cin>>name;
+		cout<<"enter your fname:";
+		cin>>fname;
+		cout<<"enter your rollno:";
+		cin>>rollno;
+		cout<<"enter your fees:";
+		cin>>fees;}
+		
+		void display()
+		{
+	cout<<"\n\n name:"<<name<<endl;
+	cout<<"\nfather name:"<<fname<<endl;
+	cout<<"\n rollno:"<<rollno<<endl;
+	cout<<"\n fees:"<<fees<<endl;}};
+	void main()
+	{
+		student a;
+		a.display();
+	getch();}
+	
